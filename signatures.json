@@ -1,0 +1,13 @@
+{
+  "monitored_selectors": {
+    "0x095ea7b3": "ERC20 Approve (Potential Unlimited Allowance Trap)",
+    "0xa9059cbb": "ERC20 Transfer (Asset Outflow)",
+    "0x5c11d795": "UniswapV2 Router (Swap Exact Tokens For Tokens)",
+    "0xab834bab": "Flash Loan Execution Target",
+    "0xf242432a": "Safe Transfer From (NFT Drainer Profile)"
+  },
+  "malicious_blacklist": [
+    "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "0x0000000000003bbbac7c4836ae4147425c968852"
+  ]
+}
